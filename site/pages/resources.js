@@ -1,6 +1,9 @@
+import Nav from "../src/components/Nav";
 export default function resources() {
 	return (
-		//
-		<p>Resources!</p>
+		<>
+			<Nav />
+			<p>Resources!</p>
+		</>
 	);
 }

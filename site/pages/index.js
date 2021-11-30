@@ -1,4 +1,4 @@
-import Test from '../src/components/Test';
+import Nav from "../src/components/Nav";
 export default function Home() {
-	return <Test />;
+	return <Nav />;
 }
