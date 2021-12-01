@@ -1,8 +1,5 @@
 import Nav from "../src/components/Nav";
+import Home1 from "../src/components/home";
 export default function Home() {
-<<<<<<< Updated upstream
-	return <Nav />;
-=======
-	return <Test/>;
->>>>>>> Stashed changes
+	return <> <Nav /> <Home1 /> </>;
 }

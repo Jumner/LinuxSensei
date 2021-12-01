@@ -36,7 +36,7 @@ const theme = extendTheme(
       "2xl": "96em",
     }),
     fonts: {
-      heading: `Major Mono Display, ${base.fonts?.heading}`,
+      heading: `Carter One, ${base.fonts?.heading}`,
       body: `Montserrat, ${base.fonts?.body}`,
       default: `Montserrat, ${base.fonts?.body}`,
     },
