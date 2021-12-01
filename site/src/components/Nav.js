@@ -9,6 +9,9 @@ export default function Nav() {
 			<Heading as="a" href="/resources">
 				Resources
 			</Heading>
+			<Heading as="a" href="/curtis">
+				Curtis
+			</Heading>
 		</HStack>
 	);
 }
