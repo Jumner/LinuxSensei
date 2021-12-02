@@ -10,6 +10,7 @@
 	"dependencies": {
 		"@chakra-ui/icons": "^1.1.1",
 		"@chakra-ui/react": "^1.7.2",
+		"@fontsource/carter-one": "^4.5.0",
 		"@fontsource/major-mono-display": "^4.5.0",
 		"@fontsource/montserrat": "^4.5.1",
 		"framer-motion": "^4.1.17",
