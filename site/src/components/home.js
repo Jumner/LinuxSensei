@@ -1,10 +1,13 @@
-import {Center, VStack, Heading} from "@chakra-ui/layout";
+import {Center, VStack, Heading, Image} from "@chakra-ui/layout";
 export default function Home1() {
     return <VStack>
-    <center>
-        <Heading m="67" fontSize="">Linux Information Page</Heading>
-    </center>
-        <p>This is the home page</p>
+    <Center w="full" bg="main.400">
+        <Heading  m="67" fontSize="4em" >Linux Information</Heading>
+        
+    </Center>
+        <p m = "30">about our website</p>
+        
     </VStack>
+
 }
 
