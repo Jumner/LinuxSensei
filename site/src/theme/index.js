@@ -27,41 +27,6 @@ const brandRing = {
 };
 
 const theme = extendTheme(
-<<<<<<< HEAD
-  {
-    breakpoints: createBreakpoints({
-      sm: "30em",
-      md: "48em",
-      lg: "62em",
-      xl: "80em",
-      "2xl": "96em",
-    }),
-    fonts: {
-      heading: `Carter One, ${base.fonts?.heading}`,
-      body: `Montserrat, ${base.fonts?.body}`,
-      default: `Montserrat, ${base.fonts?.body}`,
-    },
-    colors: {
-      main: { 600: "#5078af", 500: "#699DE4", 400: "#A4C2F4" }, // 500 is normal, 400 is light, 600 is darker
-    },
-    components: {
-      Input: { ...inputSelectStyle },
-      Select: { ...inputSelectStyle },
-      Checkbox: {
-        baseStyle: {
-          control: { ...brandRing },
-        },
-      },
-      Button: {
-        variants: {
-          primary: (props) => ({
-            ...brandRing,
-            backgroundColor: mode("main.500", "main.500")(props),
-            color: mode("white", "gray.800")(props),
-            _hover: {
-              backgroundColor: mode("main.400", "main.400")(props),
-            },
-=======
 	{
 		breakpoints: createBreakpoints({
 			sm: "30em",
@@ -71,7 +36,7 @@ const theme = extendTheme(
 			"2xl": "96em",
 		}),
 		fonts: {
-			heading: `Major Mono Display, ${base.fonts?.heading}`,
+			heading: `Carter One, ${base.fonts?.heading}`,
 			body: `Montserrat, ${base.fonts?.body}`,
 			default: `Montserrat, ${base.fonts?.body}`,
 		},
@@ -95,7 +60,6 @@ const theme = extendTheme(
 						_hover: {
 							backgroundColor: mode("main.400", "main.400")(props),
 						},
->>>>>>> main
 
 						_active: {
 							backgroundColor: mode("main.600", "main.600")(props),
