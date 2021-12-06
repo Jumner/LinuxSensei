@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/layout";
 
 export default function Os({ name, items }) {
-	let items = items.map((item) => {
+	items = items.map((item) => {
 		return (
 			<>
 				<Divider my="5" />
