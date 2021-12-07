@@ -24,7 +24,7 @@ export default function OsComparison() {
 				]}
 			/>
 			<Os
-				name="Mac Os"
+				name="MacOS"
 				items={[
 					"Created by Apple",
 					"Free",
