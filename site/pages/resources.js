@@ -12,7 +12,7 @@ export default function resources() {
 			<Section heading="Faq">
 				<Faq />
 			</Section>
-			<Section heading="Os Comparison">
+			<Section heading="OS Comparison">
 				<OsComparison />
 			</Section>
 			<Section heading="Distro Comparison">
