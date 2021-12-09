@@ -9,12 +9,10 @@ import {
 export default function Os({ name, items }) {
 	items = items.map((item) => {
 		return (
-			<>
+			<div key={item}>
 				<Divider my="5" />
-				<ListItem key={item} m="4">
-					{item}
-				</ListItem>
-			</>
+				<ListItem m="4">{item}</ListItem>
+			</div>
 		);
 	});
 	return (
