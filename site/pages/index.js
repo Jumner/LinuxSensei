@@ -102,11 +102,12 @@ export default function Home() {
 			</Section>
 			<Section heading="Grub Boot Loader" img={grub}>
 				Asking to install the GRUB boot loader. This is a must, as this is what
-				actually starts the OS. Once again, it will ask for a device for
-				something to install, and there will be a drive selected on default.
-				Choose the location of your choice and proceed. After a final
-				installation and some loading, you will be prompted to log in with the
-				password for the user you created earlier and you’re done!
+				actually starts the OS. Once again, it will ask for a device to install
+				it on, and there will be a drive selected on default. It is recommended
+				that you choose the disk that has your previous operating system on it.
+				This is so you dont have to change the boot device in your bios later.
+				After a final installation and some loading, you will be prompted to log
+				in with the password for the user you created earlier and you’re done!
 				Congratulations! You installed Debian!
 			</Section>
 			<Footer />
