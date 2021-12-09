@@ -32,7 +32,7 @@ function Question({ q, a }) {
 
 export default function Faq() {
 	return (
-		<Accordion allowToggle w="90vw">
+		<Accordion allowToggle w="full">
 			<Question
 				q="What is Linux?"
 				a="Linux is an operating system, similar to the more common Windows and macOS. It is completely free and is also open-source. This means that, unlike many of its competitors, the Linux source code is completely open to the public to view and change to the user’s liking. On top of this, there are also multiple “distributions” of Linux, which are varying versions of the operating system that offer distinct software options and components. Due to these unique features, Linux has become a widespread operating system, gaining popularity as more individuals choose to make the switch."

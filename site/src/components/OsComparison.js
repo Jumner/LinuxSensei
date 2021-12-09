@@ -2,7 +2,14 @@ import { HStack } from "@chakra-ui/react";
 import Os from "./Os";
 export default function OsComparison() {
 	return (
-		<HStack w="80vw" justify="space-between">
+		<HStack
+			w="full"
+			h="full"
+			justify="space-between"
+			align="stretch"
+			spacing="10"
+			mt="5"
+		>
 			<Os
 				name="Windows"
 				items={[
