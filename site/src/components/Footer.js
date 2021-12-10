@@ -25,9 +25,6 @@ function Team({ name, email }) {
 
 export default function Footer() {
 	return (
-		// <HStack w="full" bg="main.300" p="5">
-		// 	<p>hello</p>
-		// </HStack>
 		<SimpleGrid
 			w="full"
 			bg="main.300"
