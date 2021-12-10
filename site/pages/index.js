@@ -54,13 +54,13 @@ export default function Home() {
 				letters to the username will halt your progress, lowercase letters only.
 				Enter your time zone next.
 			</Section>
-			<Section heading="Partioning" img={partition}>
+			<Section heading="Partitioning" img={partition}>
 				you will be prompted to partition a disk. This step is done to designate
 				a specific space on a disk for your install to be located. If you are
 				unaware of how to partition a disk, the installer offers a guide. This
 				will outline the process and make recommendations for how to partition.
 			</Section>
-			<Section heading="Partioning Scheme" img={partition2}>
+			<Section heading="Partitioning Scheme" img={partition2}>
 				Debian offers different schemes for partitioning, where you are able to
 				separate things into multiple different disks. For beginners, we
 				recommend that everything stay on the same disk for a simpler setup, but
