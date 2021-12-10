@@ -12,7 +12,7 @@ export default function Home() {
 			<Nav page="0" />
 			<Home1 />
 			<Section heading="Faq">
-				<Text p="10">
+				<Text p={{ base: "2", md: "10" }}>
 					These are some frequently asked questions that new users often come up
 					with when considering or attempting to learn more about Linux! If you
 					have any unanswered questions, feel free to contact us!

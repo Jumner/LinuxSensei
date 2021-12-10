@@ -3,6 +3,7 @@ import Os from "./Os";
 export default function OsComparison() {
 	return (
 		<HStack
+			display={{ base: "none", lg: "flex" }}
 			w="full"
 			h="full"
 			justify="space-between"

@@ -27,9 +27,9 @@ export default function Footer() {
 			w="full"
 			bg="main.300"
 			p="5"
-			columns="3"
+			// columns="1"
 			justifyItems="center"
-			templateColumns="1fr auto 2fr"
+			templateColumns={{ base: "1fr", xl: "1fr auto 2fr" }}
 			mt="10"
 		>
 			<Flex flexDir="column" w="full" p="5">
@@ -60,7 +60,12 @@ export default function Footer() {
 				</Flex>
 			</Flex>
 			<Divider orientation="vertical" h="70%" my="auto" mx="5" />
-			<Flex flexDir="column" w="full" p="5">
+			<Flex
+				flexDir="column"
+				w="full"
+				p="5"
+				display={{ base: "none", xl: "flex" }}
+			>
 				<Heading textAlign="center">{"Where We're headed"}</Heading>
 				<Divider w="90%" my="10" alignSelf="center" />
 				<Flex flexDir="row" w="full" justify="space-evenly">
