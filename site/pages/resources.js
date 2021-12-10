@@ -27,9 +27,21 @@ export default function resources() {
 			<Nav page="1" />
 			<Section heading="Installation guide">
 				<Section heading="Obtaining a Bootable Usb" img={GraphicalInstall}>
-					Obtain a bootable usb with a linux debian installer on it. Once
-					inserting it in the computer, the installer menu will start up and you
-					can select your method of installation.
+					Obtain a bootable usb with a linux debian installer on it. This step
+					is quite well detailed elsewhere. Check out{" "}
+					<Text
+						as="a"
+						href="https://markontech.com/tutorials/create-a-debian-bootable-usb-in-windows-10/"
+						target="_blank"
+						color="main.400"
+						textDecor="underline"
+						fontWeight="bold"
+					>
+						this guide
+					</Text>{" "}
+					if you don{"'"}t have one Once inserting it in the computer, the
+					installer menu will start up and you can select your method of
+					installation.
 				</Section>
 				<Section heading="Select Graphical Install" img={hostname}>
 					After clicking “graphical install”, you will be brought to a page
