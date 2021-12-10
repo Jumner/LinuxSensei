@@ -1,14 +1,12 @@
 import {
-	HStack,
 	Text,
 	SimpleGrid,
-	VStack,
 	Flex,
 	Heading,
 	Divider,
 	Container,
 } from "@chakra-ui/layout";
-import Section from "./Section";
+import { SocialIcon } from "react-social-icons";
 
 function Team({ name, email }) {
 	return (
@@ -41,6 +39,25 @@ export default function Footer() {
 				<Team name="Justin" email="1frankjus@hdsb.ca" />
 				<Team name="Curtis" email="1sinopolicur@hdsb.ca" />
 				<Team name="James" email="1yangjam@hdsb.ca" />
+				<Divider w="90%" my="10" alignSelf="center" />
+				<Flex flexDir="row" justify="flex-end" alignItems="center">
+					<SocialIcon
+						target="_blank"
+						network="instagram"
+						url="https://www.instagram.com/linuxsensei/"
+						bgColor="main.400"
+					></SocialIcon>
+					<Text
+						as="a"
+						href="https://www.instagram.com/linuxsensei"
+						target="_blank"
+						fontSize="25"
+						fontWeight="bolder"
+						ml="5"
+					>
+						LinuxSensei
+					</Text>
+				</Flex>
 			</Flex>
 			<Divider orientation="vertical" h="70%" my="auto" mx="5" />
 			<Flex flexDir="column" w="full" p="5">
