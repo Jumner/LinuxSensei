@@ -17,6 +17,8 @@ import popularity from "./img/popularity.png";
 import software from "./img/software.png";
 import grub from "./img/grub.png";
 
+import infographic from "./img/infographic.png";
+
 import cheatsheet from "./img/cheatsheet.png";
 
 export default function resources() {
@@ -145,10 +147,24 @@ export default function resources() {
 						href={cheatsheet.src}
 						color="main.400"
 						textDecor="underline"
-						fontWeight="bolder"
+						fontWeight="bold"
 						target="_blank"
 					>
 						Here is a direct link to the image
+					</Text>
+				</Center>
+			</Section>
+			<Section heading="The Infographic" img={infographic}>
+				<Center>
+					<Text
+						as="a"
+						href={infographic.src}
+						color="main.400"
+						textDecor="underline"
+						fontWeight="bold"
+						target="_blank"
+					>
+						Here is a direct link to the infographic
 					</Text>
 				</Center>
 			</Section>
