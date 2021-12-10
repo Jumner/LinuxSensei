@@ -24,7 +24,7 @@ export default function OsComparison() {
 			<Os
 				name="Linux"
 				items={[
-					"Created by Linus Torvaldis, currently devloped by thousands of developers worldwide",
+					"Created by Linus Torvalds, currently devloped by thousands of developers worldwide",
 					"Free",
 					"Widely used for security, servers, smart devices, internet of things",
 					"Open source is actually disadvantageous for linux in terms of gaming",
